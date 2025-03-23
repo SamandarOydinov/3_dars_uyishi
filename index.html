@@ -7,17 +7,69 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Phono</h1>
-        <div><img src="./logos/sms.avif" alt="logo not found">Xabar</div>
-        <div><img src="./logos/like.jfif" alt="logo not found"></div>
-        <div><img src="./logos/profile.png" alt="logo not found"></div>
-        <button>Add +</button>
-    </header>
-    <div>
-        <div>
-            <img src="#" alt="search logo not found">
+    <div class="main">  
+        <header>
+            <div class="phono"><h1>Phono</h1></div>
+            <div class="logos">
+                <div><img class="small" src="./logos/sms.avif" alt="logo not found">Xabar</div>
+                <div><img class="small" src="./logos/like.avif" alt="logo not found"></div>
+                <div><img class="small" src="./logos/profile.avif" alt="logo not found"></div>
+                <button class="addButton">Добавить объявление</button>
+            </div>
+        </header>
+        <div class="container">
+            <div class="search">
+                <div class="searchLogo">
+                    <img class="small" src="./logos/search.avif" alt="search logo not found">
+                    <input type="text" name="search" id="search" placeholder="Type e.g slots games">
+                </div>
+                <button><img class="small" src="./logos/change.avif" alt=""></button>
+                <button class="searchButton">search</button>
+            </div>
+            <div class="sections">
+                <h2>Category</h2>
+                <div class="categories"></div>
+                <h2>Products</h2>
+                <div class="products"></div>
+                <div><hr></div>
+            </div>
+            <footer>
+                <div class="footer-logo">
+            <h2>Phono</h2>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li>Мобильное приложение</li>
+                <li>Помощь</li>
+                <li>Платные услуги</li>
+                <li>Реклама на сайте</li>
+            </ul>
+            <ul>
+                <li>Условия использования</li>
+                <li>Политика конфиденциальности</li>
+                <li>Партнеры</li>
+                <li>Как продавать и покупать?</li>
+            </ul>
+            <ul>
+                <li>Правила безопасности</li>
+                <li>Карта сайта</li>
+                <li>Карта регионов</li>
+                <li>Карьера в Phono</li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <img src="appstore.png" alt="App Store">
+            <div class="social-icons">
+                <img src="youtube.png" alt="YouTube">
+                <img src="vk.png" alt="VK">
+                <img src="telegram.png" alt="Telegram">
+                <img src="ok.png" alt="Odnoklassniki">
+            </div>
+        </div>
+            </footer>
         </div>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>

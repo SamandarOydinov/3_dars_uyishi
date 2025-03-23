@@ -7,3 +7,144 @@ body{
     padding: 0;
 }
 
+.container{
+    max-width: 1080px;
+    margin: 20px auto 0;
+}
+
+header {
+    background-color: #5638CC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.phono h1 {
+    margin: 0;
+    font-size: 20px;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logos div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+.small {
+    width: 20px;
+    height: 20px;
+}
+
+.addButton {
+    background-color: white;
+    color: #5638CC;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+}
+
+.search *{
+    border-radius: 4px;
+}
+
+input{
+    width: 90%;
+    border: none;
+    background-color: rgb(0, 0, 0, 0.02);
+}
+
+.searchButton{
+    border-radius: 3px;
+    color: white;
+    background-color: #5638CC;
+}
+
+.searchLogo{
+    padding-left: 4px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.sections h2{
+    text-align: center;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.categorieImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.categorieImage img{
+    border-radius: 5px;
+}
+
+.cardAdd{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.productCard img{
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+}
+
+.productLike img{
+    width: 20px;
+    height: 20px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.productTitle{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.productCard{
+    max-width: 200px;
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+}
+
+.footer-links{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
